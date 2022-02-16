@@ -1,0 +1,107 @@
+body {
+  color: black;
+}
+.show {
+  display: inline-block;
+}
+.hide {
+  display: none;
+}
+.popmodal {
+  font-size: 15px;
+}
+.popmodal > .clcls {
+  background-color: transparent !important;
+  cursor: help;
+  position: absolute;
+  display: block;
+  padding: 10px;
+  line-height: 25px;
+  right: 0;
+  top: -0.4px;
+  font-size: 40px;
+  background: #93afaf;
+  /* border-radius: 18px; */
+  /* border: 1px solid #1a1818; */
+}
+.popmodal .headcls {
+  /* text-align: center;  */
+  /* border-bottom: 1px solid rgb(233, 5, 5); */
+  font-size: 2.5rem;
+  width: 90%;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.popmodal > .maincls {
+  /* text-align: center; */
+  width: 90%;
+}
+.popmodal > .newaddcls {
+  max-height: 80%;
+  padding: 0px;
+}
+.popmodalolaycls {
+  background: rgb(230, 221, 221, 0.5) none repeat scroll 0% 0%;
+  inset: 0px;
+  position: fixed;
+  display: flex;
+  z-index: 999;
+}
+.popupmodalwprcls {
+  background: white;
+  border-radius: 4px;
+  width: 90%;
+  margin: auto;
+  padding: 8px;
+  max-width: 500px;
+  /* border: 3px solid; */
+  padding: 10px;
+  /* box-shadow: 5px 10px; */
+  position: relative;
+}
+.maincls label {
+  padding: 15px 0 5px 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.topdivcls {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.popmodal > .newaddcls .form-group {
+  margin: 0px 0px 0px 15px;
+}
+
+.popmodal a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  background: #c9cccc;
+  color: black;
+  font-weight: bold;
+}
+label {
+  margin-bottom: none !important;
+}
+.form-control {
+  display: block;
+  width: 110%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
